@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    background-color: #0c0d0e;
+}
+
+:root {
+    --primary-font: "Oswald", sans-serif;
+    --secondary-font: "Roboto", sans-serif;
+    --tertiary-font :  "Playfair Display", serif;
+}
+
+.header_bar {
+
+    font-family: var(--secondary-font);
+}
+
+.rounded-lg {
+    border-radius: .5rem;
+}
+
+.btn_background {
+    background-color: lightgrey;
+    padding: 20px;
+}
